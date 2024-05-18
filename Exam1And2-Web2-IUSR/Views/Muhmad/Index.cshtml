@@ -1,0 +1,34 @@
+﻿@{
+var customers = ViewData["Customers"] as List<Exam1And2_Web2_IUSR.Models.customer>;
+}
+
+<h2>Customer List</h2>
+
+@if (customers == null || !customers.Any())
+{
+<p>لا يوجد بيانات لعرضها</p>
+}
+else
+{
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Fname</th>
+        <th>Email</th>
+        <th>Phone</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var customer in customers)
+    {
+    <tr>
+        <td>@customer.Id</td>
+        <td>@customer.Lname</td>
+        <td>@customer.Email</td>
+        <td>@customer.phoneNumber</td>
+    </tr>
+    }
+    </tbody>
+</table>
+}
