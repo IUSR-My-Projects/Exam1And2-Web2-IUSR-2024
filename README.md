@@ -6,6 +6,9 @@
 - SQL Server
 - JetBrains Rider
 
+#### Video Link:
+<a href="https://www.youtube.com/watch?v=iOxwplghsJo&t=2090s">Youtube</a>
+
 #### Exam - 1
 ![image](https://github.com/M7MMAD-OMAR/Exam1And2-Web2-IUSR-2024/assets/73592103/69ddfa50-760c-4319-85dd-c5c3dc287c14)
 
